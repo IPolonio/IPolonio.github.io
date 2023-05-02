@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+@import url("https://fonts.googleapis.com/css?family=Mukta");
+@import url("https://fonts.googleapis.com/css?family=Bebas Neue");
+@import url("https://fonts.googleapis.com/css?family=Tajawal");
+html{
+    scroll-behavior: smooth;
+}
+
+.pie{
+    background-image: url(images/bg.jpg);
+    margin-top: 123px;
+    
+}
+#txtpie{
+   
+   text-align: center;
+color: rgb(240, 17, 17);
+    font-family: 'bebas neue';
+    font-size: 13px;
+    box-sizing: border-box;
+   
+   
+    
+}
+
+.bg{
+    height: 12px;
+    padding-top: 34px;
+}
+
+
+
+
+
+nav li{
+    display: inline;
+   position: relative;
+  top: -39px;
+   left: 1095px;
+   padding: 12px;
+   font-size: 22px;
+   font-family: 'Mukta',sans-serif;
+  transition: 0.2s;
+
+    
+}
+nav li:hover{
+
+transition: 0.2s;
+    text-decoration: underline;
+   
+    text-decoration-color: royalblue;
+ 
+}
+
+
+
+
+#logo {
+    width: 56px;
+    height: 75px;
+    position: relative;
+    top: 7px;
+    left: 12px;
+}
+
+.enc {
+    font-weight: bold;
+    font-size: 40px;
+    text-orientation: sideways-right;
+    text-justify: distribute;
+    color: rgb(0, 0, 0);
+
+}
+
+.text {
+    position: absolute;
+    top: 32px;
+    left: 75px;
+    font-family: 'Tangerine', cursive;
+}
+
+.container {
+    background-color: lightgray;
+    position: absolute;
+    width: 100%;
+    position: absolute;
+    
+    ;
+    height: 89px;
+
+
+}
+
+
+
+.serv li{
+    display: inline-block;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin-top: 123px;
+    margin-top: 250px;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border: 2px solid black;
+    border-radius: 30px;
+   transition: 0.5s;
+  
+ 
+}
+
+.serv li:active,
+.serv li:hover{
+
+    border-color: rgb(255, 153, 0);
+
+   
+}
+.serv li:active{
+    transition: 0s;
+    color: green;
+    
+}
+
+.serv li:hover h2{
+  transition: 0.2s;
+    font-size: 46px;
+    
+ 
+}
+
+
+
+.serv{
+    width: 940px;
+   margin: 0 auto;
+  transition: 0.5s;
+}
+
+.serv h2{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Bebas Neue',sans-serif;
+    transition: 0.5s;
+}
+
+.prdeje {
+    font-size: 18px;
+    font-family: 'Tajawal',sans-serif;
+    font-weight: bold;
+  
+}
+
+.prdpr{
+    font-family: 'Tajawal',sans-serif;
+    font-weight: bolder;
+    font-size: 23px;
+    margin: 10px;
+    
+
+}
